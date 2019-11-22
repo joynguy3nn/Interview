@@ -1,0 +1,109 @@
+/* Interview */
+
+* {
+
+    background-image: url(images/galaxy.jpg);  
+    left: 2em;
+    border: 0;
+
+
+}
+
+
+
+header{
+    color: white;
+    position: center;
+
+}
+body {
+
+    margin-left: 3em;
+
+}
+
+h1{
+	position: center;
+    font-size: 4em;
+    font-weight: bold;
+    font-family: 'Acme', sans-serif;
+    color: #dc51d7;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-shadow: -4px 3px 0 whitesmoke;
+}
+   
+}
+
+h2{ 
+    color: white;
+    font-size: 2em;
+	font-family: 'Poiret One', cursive;
+
+
+}
+
+h3{ perspective: 20deg;
+	font-family: 'Acme', sans-serif;
+    color: #d084d8;
+   
+}
+
+p{
+	max-width: 25em;
+    color: whitesmoke;
+	left: 10em;
+  font-family: 'Pragati Narrow', sans-serif;
+
+}
+
+footer{
+    color: white;
+     font-family: 'Poiret One', cursive;
+     font-size: 3em;
+
+
+}
+
+.toggle p {
+	opacity: 0;
+	transition: all 0.2s;
+	height: 0;
+	transition-delay: 0.2s;
+	transform: translateX(-2em);
+}
+.show p {
+	opacity: 1;
+	height:100%;
+	transform: translateX(0);
+    left: 10em;
+}
+.toggle h3 {
+	cursor: pointer;
+	transition: all 0.2s;
+	background-color: #d2eae8;
+}
+.toggle h3:hover {
+	color: #5a4fff;
+}
+.show h3 {
+	transform: translateY(-0.5em);
+	text-shadow: 20deg 40deg black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
